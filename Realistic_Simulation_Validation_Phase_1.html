@@ -3294,7 +3294,7 @@ CCGDzAaIlgHA8xHKM2O/2FJwCSGEEELIuCGdzxXF1sBTFAghhBBCyMBjpFaTWwD4/wMA2PXQlO1h
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Tensile 7A is the recreation of Tensile 7 gauge until failure. Its number of elements are equal to the length of elements in each direction. The number of elements in the x,y and z direction are 162,1 and 24 respectively giving a total of 3888 elements.</p>
+<p>Tensile 7A is the recreation of Tensile 7 gauge until failure. Its number of elements are equal to the length of elements in each direction. The number of elements in the x,y and z direction are 162,1 and 24 respectively giving a total of 3888 elements. The total volume of the mesh is 7776</p>
 </div>
 </div>
 </div>
@@ -4303,7 +4303,7 @@ hBBCCBkRmGY3w6i4Nv6M0ksIIYQQQkYUURSttmp/AQD//wA8tZEONOFJtgAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Tensile 7B is only different from Tensile 7A in the lengths of elements in each direction. In this case the length of the elements are 7,0.04 and 1 in the x,y and z direction resepectively</p>
+<p>Tensile 7B is only different from Tensile 7A in the lengths of elements in each direction. In this case the length of the elements are 7,0.04 and 1 in the x,y and z direction resepectively. Hence Tensile 7B has a volume of 7x 0.04 x 1 = 0.28</p>
 </div>
 </div>
 </div>
@@ -7725,6 +7725,15 @@ ZKghtAAAAABJRU5ErkJggg==
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In this case because the total volume is 0.28 and less than 1 the tensile values have been reduced. Once the values are divided by 0.28 we get the actual values of stress as shown below</p>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
